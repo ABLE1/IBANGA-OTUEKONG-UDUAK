@@ -1,0 +1,22 @@
+//
+// Question1.cpp
+
+//Name:			[IBANGA, OTUEKONG UDUAK]
+//Department:		[COMPUTER SCIENCE]
+//Matric. No.		[PDS/2013/1681]
+
+#include<iostream>
+int main()
+{// declaring variables
+int Able1;
+
+std::cout<<"Enter a Digit=  ";
+std::cin>>Able1;
+
+if(Able1%2==0)
+std::cout<<Able1<<" is an even no";
+else
+std::cout<< Able1<< " is an ODD number";
+
+return 0;
+} 
